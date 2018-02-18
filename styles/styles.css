@@ -269,7 +269,7 @@ figure { /*Class for picture in text, left coloumn*/
 }
 
 .formclass input[type="text"]{padding: 5px; font-family: TitilliumWeb; ont-size: 14px;}
-.formclass input[type="e-mail"]{padding: 5px; font-family: TitilliumWeb; ont-size: 14px;}
+.formclass input[type="email"]{padding: 5px; font-family: TitilliumWeb; ont-size: 14px;}
 .formclass textarea[type="text"]{padding: 5px; font-family: TitilliumWeb; ont-size: 14px;}
 
 

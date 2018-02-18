@@ -79,16 +79,15 @@
 	        			<p class="felder">Felder mit einem <span class="emailclass">*</span> sind Pflichtfelder.</p>
 	        			<p class="fehler">Fehlermeldung</p>
 	        			 
-	        			<divs>
 	                  		<form action="index.html" method="get" class="formclass">
 			                    <!--<label for="rname"></label>-->
 			                    <input name="name" id=name required="required" type="text" placeholder="Name" pattern="^[a-zA-Z]+$" class="small_field">
 			                    <br>
 			                    <!--<label for="e-mail"></label>-->
-			                    <input name="e-mail" id="e-mail" required="required" type="e-mail" placeholder="email@domain.de" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class="small_field">
+			                    <input name="e-mail" id="e-mail" required="required" type="email" placeholder="email@domain.de" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class="small_field">
 			                    <br>
 			                    <!--<label for="telephone"></label>-->
-			                    <input name="telephone" id=telephone type="text" pattern="^[ 0-9]+$" class="small_field">
+			                    <input name="telephone" id=telephone type="tel" pattern="^[ 0-9]+$" class="small_field">
 			                    <br>
 			                    <!--<label for="message"></label>-->
 			                    <textarea name="message" id="message" type="text" required="required" maxlength="500" class="message_field"></textarea>
@@ -114,7 +113,7 @@
 				<hr align="left" width="980" size="1" color="#c3c0c5"/>
 				<div class="copyright">&copy;exozet 2014</div>
 				<div class="footer_menu">New | Kontakt | Impressum</div>
-			<footer>
+			</footer>
 	</div>
 </body>
 </html>
